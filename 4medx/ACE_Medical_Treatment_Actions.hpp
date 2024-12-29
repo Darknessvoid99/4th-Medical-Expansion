@@ -7,17 +7,17 @@ class ACE_Medical_Treatment_Actions
 
 	class Diagnose : BasicBandage
 	{
-		treatmentTime = 0.1;
+		treatmentTime = 0;
 	};
 
 	class CheckDogtags : CheckPulse
 	{
-        treatmentTime = 0.1;
+        treatmentTime = 0;
     };
 
 	class Inspect : Carbonate
 	{
-        treatmentTime = 0.1;
+        treatmentTime = 0;
     };
 
     class EACA : Carbonate
@@ -40,10 +40,10 @@ class ACE_Medical_Treatment_Actions
         items[] = {"4medx_iv_phenylephrine"};
     };
 
-	class PhenylephrineAuto: Morphine
-	{
-        treatmentTime = 5;
-    };
+	//class PhenylephrineAuto : Morphine
+	//{
+    //    treatmentTime = 5;
+    //};
 
     class Nitroglycerin : EACA
 	{

@@ -1,17 +1,14 @@
-#include "script_component.hpp"
 
-class CfgPatches
-{
-	class ADDON
+
+class CfgPatches {
+    class 4medx
 	{
-		name = COMPONENT_NAME;
-		requiredVersion = REQUIRED_VERSION;
-		units[] = {};
-		weapons[] = {};
-		magazines[] = {};
-		requiredAddons[] =
+        units[] = {};
+        weapons[] = {};
+        magazines[] = { };
+        requiredAddons[] = 
 		{
-			"ace_medical",
+            "ace_medical",
             "ace_medical_ai",
             "ace_medical_blood",
             "ace_medical_damage",
@@ -29,32 +26,12 @@ class CfgPatches
 			"kat_misc",
 			"kat_pharma",
 			"kat_surgery"
-		};
-		author = "Darknessvoid99";
-		url = ECSTRING(main, URL);
-		VERSION_CONFIG;
-	};
+			//"diwako_ace_medical_main",
+			//"FSGm_MedicBag",
+        };
+        author = "Darknessvoid99";
+    };
 };
-
-class CfgMods
-{
-	class PREFIX
-	{
-		dir = "@medex_MedicalExpansion";
-		name = "4th Batt Medical Expansion";
-		picture = "medex_logo.paa";
-		logo = "medex_icon.paa";
-		//hidePicture = "true";
-		//hideName = "true";
-		actionName = "Website";
-		action = CSTRING(URL);
-		        description = "Issue Tracker: https// github.com/(insertname)/4thot/issues";
-	};
-};
-
-#include "CfgEventHandlers.hpp"
-#include "ACE_Medical_Treatment.hpp"
-#include "ACE_Medical_Treatment_Actions.hpp"
 
 class CfgMagazines 
 {
@@ -68,14 +45,14 @@ class CfgMagazines
 			scopeArsenal = 1;
 		};
 
-	//Dark MEDEX
+	//Dark 4medx
 		class 4medx_iv_eaca : CA_Magazine
 		{
 			//author = "Katalam";
 			scope = 2;
 
 			displayName = "Vial (EACA)";
-			picture = "\darkmod_medex_armco\data\icon_eaca.paa";
+			picture = "\4medx\data\icon_eaca.paa";
 			model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
 			descriptionShort = "Strengthens clots reducing reopening";
 
@@ -216,8 +193,8 @@ class CfgMagazines
 			model = "\A3\Weapons_F\Items\Medikit";
 			picture = "\z\ace\addons\medical_treatment\ui\personal_aid_kit_ca.paa";
 
-			count = 2;
-			mass = 5;
+			count = 4;
+			mass = 10;
 		};
 };
 
@@ -694,14 +671,15 @@ class CfgWeapons
 			scopeCurator = 1;
 			scopeArsenal = 1;
 		};
-
+	/*
 		class 4medx_ai_txa : ACE_adenosine
 		{
 			displayName = "Autoinjector (TXA-NP)";
 			descriptionShort = "Encourages clot formation";
 			model = "\A3\Structures_F_EPA\Items\Medical\Painkillers_F.p3d";
-			picture = "\darkmod_medex_armco\data\icon_eaca.paa";
+			picture = "\darkmod_4medx_armco\data\icon_eaca.paa";
 		};
+	*/
 };
 
 class CfgVehicles
@@ -709,11 +687,12 @@ class CfgVehicles
 	class B_AssaultPack_blk;
 	class ThingX;
 
-	class 4medx_iv_b_pack1_aed : B_AssaultPack_blk
+	class 4medx_b_pack1_aed : B_AssaultPack_blk
 	{
 		displayName = "Emergency AED Pack";
         author = "Darknesvoid99";
 		maximumLoad = 0;
+		mass = 50;
 
 		class assembleInfo
 		{
@@ -724,30 +703,30 @@ class CfgVehicles
             primary = 1;
 		};
 
-        /*hiddenSelectionsTextures[] = 
+        hiddenSelectionsTextures[] = 
         {
-            "darkmod_4medx\data\dm_pac1_med.paa"
+            "\4medx\data\dm_pac1_aed.paa"
         };
-		maximumLoad = 120;
-
-		class TransportItems
-		{
-			item_xx(kat_AED,1);
-		};*/
 	};
 
 // AEDpackIntoBackpack
 	class kat_AEDItem : ThingX
 	{
-		class ACE_MainActions
+		class ACE_Actions
 		{
-			class KAT_AED_PackIntoBackpack
+			class ACE_MainActions
 			{
-				displayName = "Repack AED";
-				condition = "_target call kat_stretcher_fnc_canPackIntoBackpack";
-				statement = "[_player, _target] call 4medx_fnc_AEDpackIntoBackpack";
-				icon = "\x\kat\addons\circulation\ui\icon_aedx_monitor.paa";
+				class 4medx_packIntoBackpack
+				{
+					displayName = "Repack AED";
+					condition = "_target call kat_stretcher_fnc_canPackIntoBackpack";
+					statement = "[_player, _target] call kat_stretcher_fnc_AEDpackIntoBackpack";
+					icon = "\x\kat\addons\circulation\ui\icon_aedx_monitor.paa";
+				};
 			};
 		};
 	};
 };
+
+#include "ACE_Medical_Treatment.hpp"
+#include "ACE_Medical_Treatment_Actions.hpp"

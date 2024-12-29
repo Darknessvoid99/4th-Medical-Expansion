@@ -1,0 +1,169 @@
+✓ Finished | ☓ Cancelled | - WIP | [ ] Box
+        Initial Release:
+        [✓] Trauma Kit
+                -Locational PAK
+                -Single use
+                -Modorately heavy (5 mass) 
+
+        [☓] TXA-NP Autoinjector
+                -Last much shorter time than standard TXA
+                -Adds some amount of clotting factors
+                -Heavy Increases blood pressure
+                -Reduces Heart Rate
+
+        [✓] AED Backpack
+                -Replaces standard AED
+                -Deployable AED in backpack
+                -Comes in a standard alone backpack in vehicles
+                -Can be used by Anyone
+
+        [✓] Medicine Bottles
+                -Change All IV Medicines to be in Bottles
+                -Bottles are 2 mass
+                -Each Bottle holds 5 doses
+
+        [☓] NARCAN
+                -Change to multiuse, 8 doses
+                -Change mass to 1
+
+        [☓] Medical Diagnostic Tool
+                -kat_coag_sense base
+                -Requirement for all redundant diagnostic actions available for medics
+
+        [✓] Gauze Roll
+                -Replaces Basic Bandages
+                -More Space Efficent
+                -Heavier (2.5 mass), but more efficent
+                -Multi-use Bandage (9 uses)
+
+        Ideas:
+        TXA-NP Autoinjector
+                -Last much shorter time than standard TXA
+                -Adds some amount of clotting factors
+                -Heavy Increases blood pressure
+                -Reduces Heart Rate
+
+        Standard AED + Backpack
+                -Exceptionally heavy (120 Mass)
+                -Comes in a standard alone backpack in vehicles
+                -Can be used by Anyone
+
+        Staple Gun
+                -Usable by Anyone
+                -Surgical Kit alternative
+                -Uses ammo unlike surgical kit
+                -Faster than surgical kit
+                -Staples per wound size: Large 8, Medium 3, Small 1 (3,8,24)
+                -Ammo is 24 staples at 3 mass
+                -Staple Gun itself is 10 mass
+
+        Medicine Bottles
+                -Change All IV Medicines to be in Bottles
+                -Bottles are 2 mass
+                -Each Bottle holds 5 doses
+
+        NARCAN
+                -Change to multiuse, 8 doses
+                -Change mass to 1
+
+        Pain Overhaul
+                -Lower overall pain gain but also lower drugs counteracting it, making it more of an balancing factor
+                -lv1 relief (Pain killers) are given a lower max pain management (0.4)(0.1)
+                -lv2 relief (Autoinjector/Inhaler) are given a medium max pain management (0.7)(0.4)
+                -lv3 relief (IV) are given a high max pain relief (0.9)(0.5)
+                -lv4 relief (Fentanyl) is given an max pain relief (1.0)(1.0)
+
+        BVM / Pocket BVM
+                -Modify standard BVM to be automatic (Only need to be applied and then will automatically work)
+                -Pocket BVM remains manual
+                -Both can use Oxygen
+                -BVM becomes Automatic BVM
+                -Pocket BVM becomes Manual BVM
+
+        Medical Diagnostic Tool
+                -kat_coag_sense base
+                -Requirement for all redundant diagnostic actions available for medics
+
+        Vehicle PAK
+                -Ability to PAK in medical vehicles without the need for an item.
+                -PAK takes a similiar amount of time of what it would take to treat wounds noramlly
+
+        Vehicle Set Fracture
+                -Serves as an alternative to surgery medical actions but limited in location.
+                -takes a similiar amount of time of what it would take to fix fractures noramlly
+
+        Vehicle Auto-BVM
+
+        Vehicle AAT Kit
+
+        Bio-Foam (OPTRE)
+                -Heavy (4 mass)
+                -Multi use Bandage (5 uses)
+                -Highly Effective
+                -Long Lasting but high reopen
+
+        Bactaid (Star Wars)
+                -Highly Effective
+                -Long Lasting but high reopen
+
+        Medi-gel (OPTRE) / Bacta-Gel (Star Wars)
+                -Locational TXA?
+                -Multi-use
+                -Fast Acting
+                -Adds clotting factors
+                -Large wounds take a extended amount of time to be effected however.
+
+        Gauze Roll
+                -Replaces Basic Bandages
+                -More Space Efficent
+                -Heavier (2.5 mass), but more efficent
+                -Multi-use Bandage (9 uses)
+
+        Medpack (Star Wars)
+                -Stabilizer Drug
+                -Short EACA & TXA
+                -Adds Alot of clotting factors
+                -Medium Pain Reliever
+
+        Flow Speed based on IV size/ Type
+                -FAST IO slower/Standard IV Speed
+                -Larger Gauge IV for faster Flow
+                -higher flow/Fast IO causes pain?
+        
+        Medicine Hub
+                -Attaches to a IV
+                -Used for time release Medicines (TXA/EACA/Etomidate)
+                -Modify flow for Norepinephrine / Nitroglycerin
+
+        Replace Trauma Kit with Surgery Loop
+                -2-3 15-20 second surgery loops
+                -Immediately closes every wound on a limbs. Reopens quickly however
+                
+        Replace
+
+
+
+Unrelated
+    Man-pad:  1.5km Range
+    Vic-pad:  2km Range
+    Short AA  3.5km Range
+    Medium AA 5km Range
+    Long AA   8km Range
+
+
+Ideal Personal Loadout / 40mass
+    Elastic 8x	        04
+    Packing 14x	        07
+    QuikClot 8x 	04
+    500ml Blood 2x	10
+    Epinephrine 3x	03
+    Morphine 1x	        01
+    Seal 1x 	        01
+    Splint 2x	        04
+    Tourniquet 3x	03
+    Pill Pack 4x	02
+    IV	2x	        00.2
+    Earplug 2x	        00.2
+    Cable Ties 6x       00.6
+
+                        40   / 40
