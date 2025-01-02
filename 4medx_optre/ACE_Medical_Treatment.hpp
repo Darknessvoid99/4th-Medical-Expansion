@@ -5,9 +5,9 @@
 #define b_i_le effectiveness = 5;  reopeningChance = 0.5; reopeningMinDelay = 600; reopeningMaxDelay = 1200;
 
 //Packing
-#define b_g_mr effectiveness = 5; reopeningChance = 0.7; reopeningMinDelay = 1200; reopeningMaxDelay = 1800;
-#define b_g_mm effectiveness = 3.5; reopeningChance = 0.8; reopeningMinDelay = 1050;  reopeningMaxDelay = 1500;
-#define b_g_le effectiveness = 2.5; reopeningChance = 0.9; reopeningMinDelay = 900;  reopeningMaxDelay = 1200;
+#define b_g_mr effectiveness = 5; reopeningChance = 0.5; reopeningMinDelay = 150; reopeningMaxDelay = 300;
+#define b_g_mm effectiveness = 3.5; reopeningChance = 0.7; reopeningMinDelay = 120;  reopeningMaxDelay = 240;
+#define b_g_le effectiveness = 2.5; reopeningChance = 0.9; reopeningMinDelay = 90;  reopeningMaxDelay = 180;
 
 #define b_c_m effectiveness = 1;   reopeningChance = 0; reopeningMinDelay = 0; reopeningMaxDelay = 0;
 #define b_c_h effectiveness = 2;   reopeningChance = 0; reopeningMinDelay = 0; reopeningMaxDelay = 0;

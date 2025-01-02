@@ -60,9 +60,9 @@ class CfgWeapons
 
 class CfgMagazines 
 {
-	class 4medx_bdg_fielddressing;
+	class 4medx_x_bdg_fielddressing;
 
-		class 4medx_x_bd_biofoam : 4medx_bdg_fielddressing
+		class 4medx_x_bd_biofoam : 4medx_x_bdg_fielddressing
 		{
 			displayName = "Biofoam Canister";
 			descriptionShort = "Self-sealing coagulant foam to stop bleeding and haemorrhaging";
@@ -77,7 +77,7 @@ class CfgMagazines
 			dlc = "OPTRE";
 		};
 
-		class 4medx_x_bd_medigel : 4medx_bdg_fielddressing
+		class 4medx_x_bd_medigel : 4medx_x_bdg_fielddressing
 		{
 			displayName = "Optican Medigel";
 			descriptionShort = "Self-sealing coagulant foam to stop bleeding and haemorrhaging";

@@ -22,22 +22,22 @@ class ACE_Medical_Treatment_Actions
 
     class EACA : Carbonate
 	{
-        items[] = {"4medx_iv_eaca"};
+        items[] = {"4medx_x_iv_eaca"};
     };
 
 	class TXA : EACA
 	{
-        items[] = {"4medx_iv_txa"};
+        items[] = {"4medx_x_iv_txa"};
     };
 
     class Norepinephrine : EACA
 	{
-        items[] = {"4medx_iv_norepinephrine"};
+        items[] = {"4medx_x_iv_norepinephrine"};
     };
 
     class Phenylephrine : EACA
 	{
-        items[] = {"4medx_iv_phenylephrine"};
+        items[] = {"4medx_x_iv_phenylephrine"};
     };
 
 	//class PhenylephrineAuto : Morphine
@@ -47,62 +47,62 @@ class ACE_Medical_Treatment_Actions
 
     class Nitroglycerin : EACA
 	{
-        items[] = {"4medx_iv_nitroglycerin"};
+        items[] = {"4medx_x_iv_nitroglycerin"};
     };
 
     class Amiodarone : EACA
 	{
-        items[] = {"4medx_iv_amiodarone"};
+        items[] = {"4medx_x_iv_amiodarone"};
     };
 
     class Lidocaine : EACA
 	{
-        items[] = {"4medx_iv_lidocaine"};
+        items[] = {"4medx_x_iv_lidocaine"};
     };
 
     class Ketamine : EACA
 	{
-        items[] = {"4medx_iv_ketamine"};
+        items[] = {"4medx_x_iv_ketamine"};
     };
 
     class Fentanyl : EACA
 	{
-        items[] = {"4medx_iv_fentanyl"};
+        items[] = {"4medx_x_iv_fentanyl"};
     };
     class Nalbuphine : EACA
 	{
-        items[] = {"4medx_iv_nalbuphine"};
+        items[] = {"4medx_x_iv_nalbuphine"};
     };
 
     class Etomidate : EACA
 	{
-        items[] = {"4medx_iv_etomidate"};
+        items[] = {"4medx_x_iv_etomidate"};
     };
 
     class Lorazepam : EACA
 	{
-        items[] = {"4medx_iv_lorazepam"};
+        items[] = {"4medx_x_iv_lorazepam"};
     };
 
     class Flumazenil : EACA
 	{
-        items[] = {"4medx_iv_flumazenil"};
+        items[] = {"4medx_x_iv_flumazenil"};
     };
 
     class EpinephrineIV : EACA
 	{
-        items[] = {"4medx_iv_epinephrine"};
+        items[] = {"4medx_x_iv_epinephrine"};
     };
 
 	class FieldDressing: BasicBandage
 	{
-        items[] = {"4medx_bdg_fielddressing"};
+        items[] = {"4medx_x_bd_fielddressing"};
     };
 
     class NPWT: BasicBandage
     {
         displayName = "Apply Trauma Kit";
-        items[] = {"4medx_ext_traumakit"};
+        items[] = {"4medx_x_ex_traumakit"};
         treatmentTime = 15;
         consumeItem = 1;
     };

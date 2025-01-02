@@ -8,6 +8,7 @@ class CfgPatches {
         magazines[] = { };
         requiredAddons[] = 
 		{
+			"ace_common",
             "ace_medical",
             "ace_medical_ai",
             "ace_medical_blood",
@@ -46,7 +47,7 @@ class CfgMagazines
 		};
 
 	//Dark 4medx
-		class 4medx_iv_eaca : CA_Magazine
+		class 4medx_x_iv_eaca : CA_Magazine
 		{
 			//author = "Katalam";
 			scope = 2;
@@ -67,7 +68,7 @@ class CfgMagazines
 			ACE_asItem = 1;
 		};
 
-		class 4medx_iv_txa : 4medx_iv_eaca
+		class 4medx_x_iv_txa : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (TXA)";
 			picture = "\x\kat\addons\pharma\ui\icon_TXA.paa";
@@ -75,7 +76,7 @@ class CfgMagazines
 			descriptionShort = "Encourages clot formation";
 		};
 
-		class 4medx_iv_norepinephrine : 4medx_iv_eaca
+		class 4medx_x_iv_norepinephrine : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Norepinephrine)";
 			picture = "\x\kat\addons\pharma\ui\norep.paa";
@@ -83,7 +84,7 @@ class CfgMagazines
 			descriptionShort = "Used to raise blood pressure";
 		};
 
-		class 4medx_iv_phenylephrine : 4medx_iv_eaca
+		class 4medx_x_iv_phenylephrine : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Phenylephrine)";
 			descriptionShort = "Used to raise blood pressure";
@@ -91,7 +92,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\phen.paa";
 		};
 
-		class 4medx_iv_nitroglycerin : 4medx_iv_eaca
+		class 4medx_x_iv_nitroglycerin : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Nitroglycerin)";
 			descriptionShort = "Used to lower blood pressure";
@@ -99,7 +100,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\nitro.paa";
 		};
 
-		class 4medx_iv_amiodarone : 4medx_iv_eaca
+		class 4medx_x_iv_amiodarone : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Amiodarone)";
 			descriptionShort = "Used to combat cardiac arrest";
@@ -107,7 +108,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_Amiodarone.paa";
 		};
 
-		class 4medx_iv_lidocaine : 4medx_iv_eaca
+		class 4medx_x_iv_lidocaine : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Lidocaine)";
 			descriptionShort = "Used to combat cardiac arrest";
@@ -115,7 +116,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_Lidocaine.paa";
 		};
 
-		class 4medx_iv_ketamine : 4medx_iv_eaca
+		class 4medx_x_iv_ketamine : 4medx_x_iv_eaca
 		{
 			displayName = "Ketamine";
 			descriptionShort = "Dissociative anesthetics, used to suppress severe pain";
@@ -123,7 +124,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_Ketamine.paa";
 		};
 
-		class 4medx_iv_fentanyl : 4medx_iv_eaca
+		class 4medx_x_iv_fentanyl : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Fentanyl)";
 			descriptionShort = "Opioid analgesic, used to suppress severe pain";
@@ -131,7 +132,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_Fentanyl.paa";
 		};
 
-		class 4medx_iv_nalbuphine : 4medx_iv_eaca
+		class 4medx_x_iv_nalbuphine : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Nalbuphine)";
 			descriptionShort = "Opioid analgesic, used to suppress moderate pain";
@@ -139,7 +140,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_Nalbuphine.paa";
 		};
 
-		class 4medx_iv_lorazepam : 4medx_iv_eaca
+		class 4medx_x_iv_lorazepam : 4medx_x_iv_eaca
 		{
 			scope = 1;
 
@@ -149,7 +150,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_lorazepam.paa";
 		};
 
-		class 4medx_iv_flumazenil : 4medx_iv_eaca
+		class 4medx_x_iv_flumazenil : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Flumazenil)";
 			descriptionShort = "Counter to Lorazepam";
@@ -157,7 +158,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_flumazenil.paa";
 		};
 
-		class 4medx_iv_etomidate : 4medx_iv_eaca
+		class 4medx_x_iv_etomidate : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Etomidate)";
 			descriptionShort = "General Anesthetic";
@@ -165,7 +166,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_etomidate.paa";
 		};
 
-		class 4medx_iv_epinephrine : 4medx_iv_eaca
+		class 4medx_x_iv_epinephrine : 4medx_x_iv_eaca
 		{
 			displayName = "Vial (Epinephrine)";
 			descriptionShort = "Increase heart rate, counter allergic reactions, and increase CPR Chance";
@@ -174,7 +175,7 @@ class CfgMagazines
 			picture = "\x\kat\addons\pharma\ui\icon_EpinephrineIV.paa";
 		};
 
-		class 4medx_bdg_fielddressing : 4medx_iv_eaca
+		class 4medx_x_bd_fielddressing : 4medx_x_iv_eaca
 		{
 			displayName = "Bandage (Basic)";
 			descriptionShort = "Used to cover a wound";
@@ -186,7 +187,7 @@ class CfgMagazines
 			mass = 2.5;
 		};
 
-		class 4medx_ext_traumakit : 4medx_iv_eaca
+		class 4medx_x_ex_traumakit : 4medx_x_iv_eaca
 		{
 			displayName = "Trauma Kit";
 			descriptionShort = "Used to quickly stem excessive bleeding";
@@ -672,7 +673,7 @@ class CfgWeapons
 			scopeArsenal = 1;
 		};
 	/*
-		class 4medx_ai_txa : ACE_adenosine
+		class 4medx_x_ai_txa : ACE_adenosine
 		{
 			displayName = "Autoinjector (TXA-NP)";
 			descriptionShort = "Encourages clot formation";
