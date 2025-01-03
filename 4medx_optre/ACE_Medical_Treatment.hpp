@@ -1,8 +1,8 @@
 	//Macros	
 //Basic Bandage
-#define b_i_mr effectiveness = 20; reopeningChance = 0.1; reopeningMinDelay = 900; reopeningMaxDelay = 1800;
-#define b_i_mm effectiveness = 10; reopeningChance = 0.3; reopeningMinDelay = 750; reopeningMaxDelay = 1500;
-#define b_i_le effectiveness = 5;  reopeningChance = 0.5; reopeningMinDelay = 600; reopeningMaxDelay = 1200;
+#define b_i_mr effectiveness = 3; reopeningChance = 0.1; reopeningMinDelay = 900; reopeningMaxDelay = 1800;
+#define b_i_mm effectiveness = 3; reopeningChance = 0.3; reopeningMinDelay = 750; reopeningMaxDelay = 1500;
+#define b_i_le effectiveness = 3;  reopeningChance = 0.5; reopeningMinDelay = 600; reopeningMaxDelay = 1200;
 
 //Packing
 #define b_g_mr effectiveness = 5; reopeningChance = 0.5; reopeningMinDelay = 150; reopeningMaxDelay = 300;
@@ -17,6 +17,7 @@ class ACE_Medical_Treatment
 {
 	class Bandaging
 	{
+		class ElasticBandage;
 		class OPTRE_Biofoam : ElasticBandage
 		{
 			class Abrasion

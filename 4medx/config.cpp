@@ -177,7 +177,7 @@ class CfgMagazines
 
 		class 4medx_x_bd_fielddressing : 4medx_x_iv_eaca
 		{
-			displayName = "Bandage (Basic)";
+			displayName = "Bandage (Basic) Roll";
 			descriptionShort = "Used to cover a wound";
 			descriptionUse = "A dressing, that is a particular material used to cover a wound, which is applied over the wound once bleeding has been stemmed.";
 			model = "\z\ace\addons\medical_treatment\data\bandage.p3d";
@@ -729,5 +729,6 @@ class CfgVehicles
 	};
 };
 
+#include "ACE_Medical_replacementItems.hpp"
 #include "ACE_Medical_Treatment.hpp"
 #include "ACE_Medical_Treatment_Actions.hpp"

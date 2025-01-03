@@ -26,7 +26,7 @@ class CfgPatches {
 			"kat_circulation",
 			"kat_misc",
 			"kat_pharma",
-			"kat_surgery"
+			"kat_surgery",
 			"OPTRE_Loadorder",
 			"OPTRE_ACE_Compat"
         };
@@ -39,6 +39,7 @@ class CfgPatches {
 class CfgWeapons
 {
 	class ACE_fieldDressing;
+	class ACE_ItemCore;
 
 	class OPTRE_Biofoam : ACE_fieldDressing
 	{
@@ -60,9 +61,9 @@ class CfgWeapons
 
 class CfgMagazines 
 {
-	class 4medx_x_bdg_fielddressing;
+	class 4medx_x_bd_fielddressing;
 
-		class 4medx_x_bd_biofoam : 4medx_x_bdg_fielddressing
+		class 4medx_x_bd_biofoam : 4medx_x_bd_fielddressing
 		{
 			displayName = "Biofoam Canister";
 			descriptionShort = "Self-sealing coagulant foam to stop bleeding and haemorrhaging";
@@ -70,14 +71,14 @@ class CfgMagazines
 			model = "\OPTRE_Weapons\items\Biofoam.p3d";
 			picture = "\OPTRE_weapons\items\icons\biofoam.paa";
 
-			count = 2;	//12
+			count = 12;
 			mass = 9;
 
 			author = "Article 2 Studios";
 			dlc = "OPTRE";
 		};
 
-		class 4medx_x_bd_medigel : 4medx_x_bdg_fielddressing
+		class 4medx_x_bd_medigel : 4medx_x_bd_fielddressing
 		{
 			displayName = "Optican Medigel";
 			descriptionShort = "Self-sealing coagulant foam to stop bleeding and haemorrhaging";
